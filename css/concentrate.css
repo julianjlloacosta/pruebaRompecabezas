@@ -1,0 +1,158 @@
+
+/* -----------Section Concentrate-------------- */
+.concentrate_1{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url('../img/Repite-min.png');
+    
+}
+/* --------------Section Creditos------------------- */
+.creditos{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url('../img/Créditos/Fondo_cafe.png');
+}
+.texto_creditos{
+    position: fixed;
+    top: 17%;
+    right: 35%;
+    width: 322px;
+    height: 316px;
+    background: url("../img/Créditos/Créditos.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.atras_creditos{
+    position: fixed;
+    bottom: 3%;
+    right: 35%;
+    width: 133px;
+    height: 153px;
+    background: url("../img/Créditos/Atras_btn.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.sonido_creditos{
+    position: fixed;
+    bottom: 3%;
+    left: 35%;
+    width: 133px;
+    height: 153px;
+    background: url("../img/Créditos/Sonido_creditos_btn.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+/* -----------------Section 1------------------------- */
+.killa_intro{
+    position: fixed;
+    top: 15%;
+    right: 7%;
+    width: 212px;
+    height: 570px;
+    background: url("../img/Kila2-min.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.concentrate_text{
+    position: fixed;
+    top: 13%;
+    left: 18%;
+    width: 485px;
+    height: 364px;
+    background: url("../img/concentrate-min.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.btn_jugar{
+    position: fixed;
+    bottom: 10%;
+    left: 31%;
+    width: 200px;
+    height: 220px;
+    background: url("../img/Jugar_btn-min.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.btn_jugar.ganar{
+    bottom: 16%;
+    left: 37%;
+    width: 140px;
+    height: 150px; 
+}
+.btn_jugar.perder{
+    bottom: 16%;
+    left: 37%;
+    width: 140px;
+    height: 150px; 
+}
+
+.btn_atras{
+    position: fixed;
+    bottom: 25%;
+    left: 10%;
+    width: 78px;
+    height:87px;
+    background: url("../img/atras_btn-min.png") no-repeat;
+  
+}
+.btn_sonido{
+    position: fixed;
+    bottom: 13%;
+    left: 10%;
+    width: 78px;
+    height: 87px;
+    background: url("../img/sonido_btn-min.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.perdiste{
+    position: fixed;
+    top: 13%;
+    left: 12%;
+    width: 598px;
+    height: 578px;
+    background: url("../img/perdiste_concentrate-min.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.ganaste{
+    position: fixed;
+    top: 13%;
+    left: 12%;
+    width: 598px;
+    height: 578px;
+    background: url("../img/ganaste_concentrate-min.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+/* ----------------Tarjetas------------------- */
+.wrap{
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    width: 471px;
+    height: auto;
+    /* margin: 50px auto; */
+    display: flex;
+    /* background-color: red; */
+}
+.tarjeta-wrap{
+}
+.tarjeta{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/card_Black.png);
+    display: inline-block;
+    margin-top: 2px;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.tarjeta.reverso{
+background-image: url(../img/carta_white.png);
+}

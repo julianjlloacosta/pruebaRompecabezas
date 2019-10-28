@@ -1,0 +1,190 @@
+section{
+    width:auto;
+    height:auto;
+    /* border:1px solid black; */
+
+    /* max-width: 50%;
+    height: auto; */
+
+ 
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+
+  }
+
+  html, body{
+    background-position: center;
+    overflow:hidden; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+  
+
+.ocultar{
+    display:none;
+}
+
+#mainScreen_hangMan{
+    background-image: url('../img/background.png');
+    height: 768px;
+    width: 1024px;
+    background-position: center;
+    overflow:hidden; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#titleWithText{
+    margin-left: 12.5%;
+    margin-top: 12%;
+}
+
+#mainCharacter{
+    margin-left: 73%;
+    margin-top: -35%;
+}
+
+#divPlayBtn{
+    margin-left: 25.5%;
+    margin-top: -26%;
+}
+
+#divBackBtn{
+    margin-left: 5.4%;
+    margin-top: -19.4%;
+}
+
+#divSoundBtn{
+    margin-left: 5.4%;
+    margin-top: 1.6%;
+}
+
+
+#gameOverScreen_hangMan{
+    background-image: url('../img/background.png');
+    height: 768px;
+    width: 1024px;
+    background-position: center;
+    overflow:hidden; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gameOverTitleHangman{
+
+    margin-left: 8.4%;
+    margin-top: 10.9%;
+}
+
+.mainCharacterIndi{
+    margin-left: 72.8%;
+    margin-top: -63.2%;
+}
+
+#divPlayAgainBtnGameOver{
+    margin-left: 35.9%;
+    margin-top: -22.3%;
+}
+
+#divBackBtnHangManGameOver{
+    margin-left: 5.4%;
+    margin-top: -15%;
+}
+
+#divSoundBtnHangManGameOver{
+    margin-left: 5.4%;
+    margin-top: 2.1%;
+}
+
+#gameWonScreen_hangMan{
+    background-image: url('../img/background.png');
+    height: 768px;
+    width: 1024px;
+    background-position: center;
+    overflow:hidden; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gameWonTitleHangman{
+    margin-left: 8.4%;
+    margin-top: 10.9%;
+}
+
+#divPlayAgainBtnGameWon{
+
+    margin-left: 35.9%;
+    margin-top: -22.3%;
+}
+
+#divBackBtnHangManGameWon{
+    margin-left: 5.4%;
+    margin-top: -15%;
+}
+
+#divSoundBtnHangManGameWon{
+    margin-left: 5.4%;
+    margin-top: 2.1%;
+}
+
+#intro2Screen{
+    background-image: url('../img/background.png');
+    height: 768px;
+    width: 1024px;
+    background-position: center;
+    overflow:hidden; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#intro2{
+    margin-left: 17%;
+    margin-top: 27.9%;
+}
+
+#divSoundBtnIntro2{
+    margin-left: 5.4%;
+    margin-top: 12.5%;
+}
+
+#divContinueBtnIntro2{
+
+    margin-left: 82.8%;
+    margin-top: -14.4%;
+}
+
+#intro3Screen{
+    background-image: url('../img/background.png');
+    height: 768px;
+    width: 1024px;
+    background-position: center;
+    overflow:hidden; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#intro3{
+    margin-left: 22.2%;
+    margin-top: 16.3%;
+}
+
+#divSoundBtnIntro3{
+    margin-left: 5.2%;
+    margin-top: 1.4%;
+}
+
+#divContinueBtnIntro3{
+
+    margin-left: 82.8%;
+    margin-top: -14.4%;
+}

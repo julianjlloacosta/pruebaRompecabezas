@@ -1,0 +1,183 @@
+.backgroundInitial{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    background-image: url('../img/Fondo_cafe.png');
+}
+.nameApp{
+    width: 100%;
+    height: 0%;
+}
+.titule{
+    width: 100%;
+    height: auto
+}
+.playPrincipal{
+    position: fixed;
+    left: 42%;
+    top: 57%;
+}
+.musicPrincipal{
+    position: fixed;
+    left: 42%;
+    top: 85%;
+}
+.creditsPrincipal{
+    position: fixed;
+    left: 53%;
+    top: 87%;
+}
+.childrens{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: auto;
+}
+.intro1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    background-image: url('../img/Repite.png');
+}
+.backgroundSection{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    background-image: url('../img/Repite.png');
+}
+.history1{
+    width: 100%;
+    height: 0%;
+}
+.advancement{
+    position: fixed;
+    left: 83%;
+    top: 72%;
+}
+.musicIntro{
+    position: fixed;
+    left: 5%;
+    top: 80%;
+}
+.introduction{
+    margin-top: 20%;
+    width: 100%;
+    height: auto
+}
+.puzzle{
+    position: relative;
+    width:100%;
+    height:100%;
+    
+}
+.killaPuzzle{
+    position: fixed;
+    top: 15%;
+    right: 7%;
+    width: 212px;
+    height: 570px;
+}
+
+.puzzle_text{
+    position: fixed;
+    top: 13%;
+    left: 18%;
+    width: 485px;
+    height: 364px;
+}
+.btnJugarPuzzle{
+    position: fixed;
+    bottom: 15%;
+    left: 37%;
+    width: 140px;
+    height: 170px;
+
+}
+.btnJugarPuzzle.ganar{
+    bottom: 15%;
+    left: 37%;
+    width: 140px;
+    height: 150px; 
+}
+.btnJugarPuzzler.perder{
+    bottom: 15%;
+    left: 37%;
+    width: 140px;
+    height: 150px; 
+}
+
+.btnAtrasPuzzle{
+    position: fixed;
+    bottom: 25%;
+    left: 10%;
+    width: 65px;
+    height: 70px;
+}
+.btnSonidoPuzzle{
+    position: fixed;
+    bottom: 13%;
+    left: 10%;
+    width: 65px;
+    height: 70px;
+}
+.Lose{
+    position: fixed;
+    top: 13%;
+    left: 12%;
+    width: 598px;
+    height: 578px;
+}
+.win{
+    position: fixed;
+    top: 13%;
+    left: 12%;
+    width: 598px;
+    height: 578px;
+}
+#DevelopPuzzle{
+    background-image: url(../img/background.png);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: 100%; 
+}
+.titulePuzzle{
+    width: 100%;
+    height: 16%;
+    margin-top: 7px;
+}
+.ImgPuzzle{
+    margin-top: 22px;
+    text-align: center;
+}
+.BtnhomePuzle{
+    float: left;
+    position: fixed;
+    top: 14px;
+    left: 46px;
+}
+.btnSonidoPuzzle{
+    position: fixed;
+    top: 20px;
+    left: 87%;
+}
+.tableGamePuzzle{
+    margin-top: -30px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo_rompecabezas.png);
+    background-repeat: no-repeat;
+    margin-left: 30px;  
+    position: relative;
+    overflow: hidden;
+    background-size:cover;
+}
+.entrono{
+    position: fixed;
+    overflow: hidden;
+}

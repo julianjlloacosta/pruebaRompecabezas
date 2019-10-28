@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Descubriendo Medellín</title>
+    <link rel="stylesheet" href="css/adivina.css">
+    <link rel="stylesheet" href="css/concentrate.css">
+    <link rel="stylesheet" href="css/puzzle.css">
+</head>
+
+<body>
+
+    <section class="backgroundInitial ocultar">
+        <div class="nameApp">
+            <img src="img/Título.png" class="titule"></img>
+        </div>
+        <div>
+            <img src="img/Niños_inicio.png" class="childrens"></img>
+            <input type="image" src="img/Jugar_btn.png" class="playPrincipal"></input>
+        </div>
+        <div>
+            <input type="image" src="img/sonido_btn.png" class="musicPrincipal"></input>
+            <input type="image" src="img/Créditos_btn.png" class="creditsPrincipal"></input>
+        </div>
+    </section>
+    <section class="intro1 ocultar">
+        <div class="history1">
+            <img src="img/intro1.png" class="introduction"></img>
+        </div>
+        <div>
+            <input type="image" src="img/seguir_btn.png" class="advancement"></input>
+            <input type="image" src="img/sonido_btn.png" class="musicIntro"></input>
+        </div>
+    </section>
+
+    <section id="intro2Screen" class="ocultar">
+
+        <div id="intro2">
+            <img src="img/intro2.png" alt="">
+        </div>
+
+
+        <div id="divSoundBtnIntro2">
+            <input id="soundBtnIntro2" type="image" src="img/btnSonidoIntro2.png" alt="Submit" class="button"
+                onclick="">
+        </div>
+
+        <div id="divContinueBtnIntro2">
+            <input id="continueBtnIntro2" type="image" src="img/btnSeguir.png" alt="Submit" class="button" onclick="">
+        </div>
+
+
+    </section>
+
+    <section id="intro3Screen" class="ocultar">
+
+        <div id="intro3">
+            <img src="img/intro3.png" alt="">
+        </div>
+
+
+        <div id="divSoundBtnIntro3">
+            <input id="soundBtnIntro3" type="image" src="img/btnSonidoIntro2.png" alt="Submit" class="button"
+                onclick="">
+        </div>
+
+        <div id="divContinueBtnIntro3">
+            <input id="continueBtnIntro3" type="image" src="img/btnSeguir.png" alt="Submit" class="button" onclick="">
+        </div>
+
+    </section>
+
+    <section class="creditos ocultar">
+        <span class="texto_creditos"></span>
+        <img src="img/Créditos/Niños_creditos.png" alt="">
+        <span class="atras_creditos"></span>
+        <span class="sonido_creditos"></span>
+    </section>
+
+    <!-- Adivina beginning -->
+    <section id="mainScreen_hangMan" class="ocultar">
+
+        <div id="titleWithText">
+            <img src="img/adivinaCerroTitle.png" alt="">
+        </div>
+
+        <div id="mainCharacter">
+            <img src="img/indi.png" alt="">
+        </div>
+
+        <div id="divPlayBtn">
+            <input id="playHangmanBtn" type="image" src="img/btnJugar.png" alt="Submit" class="button" onclick="">
+        </div>
+
+        <div id="divBackBtn">
+            <input id="backBtnHangman" type="image" src="img/btnAtras.png" alt="Submit" class="button" onclick="">
+        </div>
+
+        <div id="divSoundBtn">
+            <input id="soundBtnHangman" type="image" src="img/btnSonidoOn.png" alt="Submit" class="button" onclick="">
+        </div>
+
+    </section>
+
+    <section id="gameOverScreen_hangMan" class="ocultar">
+
+        <div id="gameOverTitleHangman">
+            <img src="img/perdisteAdivina.png" alt="">
+        </div>
+
+        <div id="mainCharacterGameOver" class="mainCharacterIndi">
+            <img src="img/indi.png" alt="">
+        </div>
+
+        <div id="divPlayAgainBtnGameOver">
+            <input id="playAgainHangmanBtn" type="image" src="img/btnReintentarlo.png" alt="Submit" class="button"
+                onclick="">
+        </div>
+
+        <div id="divBackBtnHangManGameOver">
+            <input id="backBtnHangmanGameOver" type="image" src="img/btnAtras.png" alt="Submit" class="button"
+                onclick="">
+        </div>
+
+        <div id="divSoundBtnHangManGameOver">
+            <input id="soundBtnHangmanGameOver" type="image" src="img/btnSonidoOn.png" alt="Submit" class="button"
+                onclick="">
+        </div>
+
+    </section>
+
+    <section id="gameWonScreen_hangMan" class="ocultar">
+
+        <div id="gameWonTitleHangman">
+            <img src="img/ganasteAdivina.png" alt="">
+        </div>
+
+        <div id="mainCharacterGameWon" class="mainCharacterIndi">
+            <img src="img/indi.png" alt="">
+        </div>
+
+        <div id="divPlayAgainBtnGameWon">
+            <input id="playAgainHangmanBtnGameWon" type="image" src="img/btnReintentarlo.png" alt="Submit"
+                class="button" onclick="">
+        </div>
+
+        <div id="divBackBtnHangManGameWon">
+            <input id="backBtnHangmanGameWon" type="image" src="img/btnAtras.png" alt="Submit" class="button"
+                onclick="">
+        </div>
+
+        <div id="divSoundBtnHangManGameWon">
+            <input id="soundBtnHangmanGameWon" type="image" src="img/btnSonidoOn.png" alt="Submit" class="button"
+                onclick="">
+        </div>
+    </section>
+    <!-- Adivina Ending -->
+
+
+    <!-- CONCENTRATE -->
+    <section class="concentrate_1 ocultar">
+        <span class="killa_intro"></span>
+        <span class="btn_atras"></span>
+        <span class="btn_sonido"></span>
+        <div class="wrap">
+            <div class="tarjeta-wrap ocultar">
+                <div class="tarjeta reverso">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta reverso">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+                <div class="tarjeta ">
+                    <div class="adelante"></div>
+                    <div class="reverso"></div>
+                </div>
+            </div>
+        </div>
+        <!-- INTRO -->
+        <section class="intro ocultar">
+            <span class="btn_jugar"></span>
+            <span class="concentrate_text"></span>
+        </section>
+        <!-- GANAR -->
+        <section class="ganar ocultar">
+            <span class="ganaste "></span>
+            <span class="btn_jugar ganar"></span>
+        </section>
+        <!-- PERDER -->
+        <section class="perder ocultar">
+            <span class="perdiste"></span>
+            <span class="btn_jugar perder"></span>
+        </section>
+    </section>
+    <!-- FIN CONCENTRATE -->
+
+    <!-- Puzzle beginning -->
+    <section class="puzzle backgroundSection ocultar">
+        <img src="img/Kila.png" class="killaPuzzle"></img>
+        <img src="img/atras_btn.png" class="btnAtrasPuzzle"></img>
+        <img src="img/sonido_btn.png" class="btnSonidoPuzzle"></img>
+
+        <section class="intro backgroundSection ocultar">
+            <img src="img/rompecabezas.png" class="puzzle_text"></img>
+            <img src="img/Jugar_btn.png" class="btnJugarPuzzle"></img>
+
+        </section>
+
+        <section id="GanarPuzzle" class="ganar backgroundSection ocultar">
+            <img src="img/ganaste_rompecabezas.png" class="Lose"></img>
+            <img src="img/Jugar_btn.png" class="btnJugarPuzzle ganar"></img>
+        </section>
+
+        <section class="perder backgroundSection ocultar">
+            <img src="img/perdiste_rompecabezas.png" class="win"></img>
+            <img src="img/Jugar_btn.png" class="btnJugarPuzzle perder"></img>
+        </section>
+    </section>
+    <section id="DevelopPuzzle">
+        <div class="titulePuzzle">
+            <div class="ImgPuzzle">
+                <img src="img/rompecabezas_titulo.png">
+            </div>            
+        </div>
+        <div class="BtnhomePuzle">
+                <input type="image" src="img/home_bt.png"></input>
+        </div>
+        <div class="btnSonidoPuzzle">
+                <input type="image" src="img/sonido_btn.png"></input>
+        </div>
+        <div class="tableGamePuzzle">
+            
+                <svg width="100%" height="100%" id="entrono">
+                    <g><image xlink:href="img/imagen1_rompecabezas.png" width="539" height="540" x="2" y="58"></g>
+                        <g class="padre" id="0"><image xlink:href="img/pieza 1.png" class="movil"  ></image></g>
+                        <g class="padre" id="1"><image xlink:href="img/pieza 2.png" class="movil"  ></image></g>
+                        <g class="padre" id="2"><image xlink:href="img/pieza 3.png" class="movil"  ></image></g>
+                        <g class="padre" id="3"><image xlink:href="img/pieza 4.png" class="movil"  ></image></g>
+                        <g class="padre" id="4"><image xlink:href="img/pieza 5.png" class="movil"  ></image></g>
+                        <g class="padre" id="5"><image xlink:href="img/pieza 6.png" class="movil"  ></image></g>
+                        <g class="padre" id="6"><image xlink:href="img/pieza 7.png" class="movil"  ></image></g>
+                        <g class="padre" id="7"><image xlink:href="img/pieza 8.png" class="movil"  ></image></g>
+                        <g class="padre" id="8"><image xlink:href="img/pieza 9.png" class="movil"  ></image></g>
+                        <g class="padre" id="9"><image xlink:href="img/pieza 10.png" class="movil" ></image></g>
+                        <g class="padre" id="10"><image xlink:href="img/pieza 11.png" class="movil"></image></g>
+                        <g class="padre" id="11"><image xlink:href="img/pieza 12.png" class="movil"></image></g>
+                        <g class="padre" id="12"><image xlink:href="img/pieza 13.png" class="movil"></image></g>
+                        <g class="padre" id="13"><image xlink:href="img/pieza 14.png" class="movil"></image></g>
+                        <g class="padre" id="14"><image xlink:href="img/pieza 15.png" class="movil"></image></g>
+                </svg>
+                   
+        </div>
+    </section>
+    <!-- Puzzle ending -->
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/concentrate.js"></script>
+</body>
+
+</html>
